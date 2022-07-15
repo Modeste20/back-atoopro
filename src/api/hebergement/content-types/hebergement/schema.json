@@ -1,0 +1,67 @@
+{
+  "kind": "singleType",
+  "collectionName": "hebergements",
+  "info": {
+    "singularName": "hebergement",
+    "pluralName": "hebergements",
+    "displayName": "Hebergement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.banner",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "section_contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.section-contact",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "className": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Content": {
+      "type": "dynamiczone",
+      "components": [
+        "block.card-join"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

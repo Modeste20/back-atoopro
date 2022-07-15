@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_block_form_errors",
+  "info": {
+    "displayName": "form_error",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "required": {
+      "displayName": "required",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.required"
+    },
+    "other_errors": {
+      "displayName": "other_errors",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.other-errors"
+    }
+  }
+}

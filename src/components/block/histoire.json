@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_block_histoires",
+  "info": {
+    "displayName": "histoire",
+    "icon": "bullhorn"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "step": {
+      "displayName": "step",
+      "type": "component",
+      "repeatable": true,
+      "component": "block.step"
+    }
+  }
+}

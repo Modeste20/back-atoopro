@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_block_card_services",
+  "info": {
+    "displayName": "card_service",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image_alt": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "className": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_block_engagements",
+  "info": {
+    "displayName": "Engagement",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "card_engagement": {
+      "displayName": "card_engagement",
+      "type": "component",
+      "repeatable": true,
+      "component": "block.card-engagement"
+    }
+  }
+}

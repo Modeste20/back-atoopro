@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_block_banner_images",
+  "info": {
+    "displayName": "banner_image",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "alt": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

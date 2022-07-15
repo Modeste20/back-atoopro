@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_block_services",
+  "info": {
+    "displayName": "Services",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "card_service": {
+      "displayName": "card_service",
+      "type": "component",
+      "repeatable": true,
+      "component": "block.card-service"
+    }
+  }
+}

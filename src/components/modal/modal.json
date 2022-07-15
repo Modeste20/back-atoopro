@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_modal_modals",
+  "info": {
+    "displayName": "Modal",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "allow_cookie": {
+      "type": "string"
+    },
+    "refuse_cookie": {
+      "type": "string"
+    },
+    "cookie_disabled_message": {
+      "type": "richtext"
+    }
+  }
+}

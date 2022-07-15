@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_block_partenaires",
+  "info": {
+    "displayName": "partenaires",
+    "icon": "basketball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Images": {
+      "displayName": "Images",
+      "type": "component",
+      "repeatable": true,
+      "component": "block.images"
+    }
+  }
+}

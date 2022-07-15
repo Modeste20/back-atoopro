@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_block_sections",
+  "info": {
+    "displayName": "section",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_alt": {
+      "type": "string"
+    }
+  }
+}

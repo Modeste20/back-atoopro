@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_block_section_contacts",
+  "info": {
+    "displayName": "section_contact",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "button_url": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

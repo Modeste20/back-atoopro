@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "metiers",
+  "info": {
+    "singularName": "metier",
+    "pluralName": "metiers",
+    "displayName": "Metier",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.banner",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "joinUs": {
+      "displayName": "joinUs",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.join-us",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "offres": {
+      "displayName": "offres",
+      "type": "component",
+      "repeatable": true,
+      "component": "block.offres",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

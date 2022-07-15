@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_block_card_engagements",
+  "info": {
+    "displayName": "card_engagement",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "svg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

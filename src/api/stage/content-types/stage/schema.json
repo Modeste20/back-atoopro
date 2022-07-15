@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "stages",
+  "info": {
+    "singularName": "stage",
+    "pluralName": "stages",
+    "displayName": "stage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "section": {
+      "displayName": "section",
+      "type": "component",
+      "repeatable": true,
+      "component": "block.section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "section_contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.section-contact",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.banner",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "bannerImage": {
+      "displayName": "banner_image",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.banner-image",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

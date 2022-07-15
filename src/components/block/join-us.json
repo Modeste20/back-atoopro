@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_block_joinuses",
+  "info": {
+    "displayName": "joinUs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "card_join": {
+      "displayName": "card_join",
+      "type": "component",
+      "repeatable": true,
+      "component": "block.card-join"
+    }
+  }
+}

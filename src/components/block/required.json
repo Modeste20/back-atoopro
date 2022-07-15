@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_block_requireds",
+  "info": {
+    "displayName": "required",
+    "icon": "angle-double-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "societe": {
+      "type": "string"
+    },
+    "tel": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "file": {
+      "type": "string"
+    },
+    "check": {
+      "type": "string"
+    },
+    "recaptcha": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "objet": {
+      "type": "string"
+    }
+  }
+}

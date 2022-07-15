@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_block_other_errors",
+  "info": {
+    "displayName": "other_errors",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name_begin_with_letter": {
+      "type": "string"
+    },
+    "valid_email": {
+      "type": "string"
+    },
+    "valid_tel": {
+      "type": "string"
+    },
+    "file_pdf": {
+      "type": "string"
+    }
+  }
+}

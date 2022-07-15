@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_block_offres",
+  "info": {
+    "displayName": "offres",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

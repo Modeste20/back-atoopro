@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_block_forms",
+  "info": {
+    "displayName": "form",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "radio": {
+      "displayName": "radio",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.radio"
+    },
+    "placeholder": {
+      "displayName": "placeholder",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.placeholder"
+    },
+    "selection": {
+      "displayName": "selection",
+      "type": "component",
+      "repeatable": true,
+      "component": "block.selection"
+    }
+  }
+}

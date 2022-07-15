@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_block_banners",
+  "info": {
+    "displayName": "banner",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "buttontext": {
+      "type": "string"
+    }
+  }
+}

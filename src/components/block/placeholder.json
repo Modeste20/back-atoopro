@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_block_placeholders",
+  "info": {
+    "displayName": "placeholder",
+    "icon": "arrow-alt-circle-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "societe": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "tel": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "submit_button_loading": {
+      "type": "string"
+    },
+    "submit_button_text": {
+      "type": "string"
+    }
+  }
+}

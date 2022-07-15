@@ -1,0 +1,63 @@
+{
+  "kind": "singleType",
+  "collectionName": "atoopros",
+  "info": {
+    "singularName": "atoopro",
+    "pluralName": "atoopros",
+    "displayName": "Atoopro",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.banner",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Content": {
+      "type": "dynamiczone",
+      "components": [
+        "block.engagement",
+        "block.histoire",
+        "block.section-contact"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "banner_image": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "block.banner-image"
+    },
+    "Section": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "block.section"
+    }
+  }
+}

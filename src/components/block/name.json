@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_block_names",
+  "info": {
+    "displayName": "name",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "required": {
+      "type": "string"
+    },
+    "beginLetter": {
+      "type": "string"
+    }
+  }
+}

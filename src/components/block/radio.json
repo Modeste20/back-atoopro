@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_block_radios",
+  "info": {
+    "displayName": "radio",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "entreprise": {
+      "type": "string"
+    },
+    "emploi": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_block_images",
+  "info": {
+    "displayName": "Images",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_alt": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_block_recrutements",
+  "info": {
+    "displayName": "recrutement",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "recrutement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.banner"
+    }
+  }
+}
